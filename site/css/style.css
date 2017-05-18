@@ -17,8 +17,12 @@ h1 {
 }
 .desc {
     clear: both;
+}
+
+.p{
     text-align: justify;
 }
+
 .subhead {
     float: right;
     padding: 5px 40px;
