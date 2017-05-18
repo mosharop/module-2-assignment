@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 90%;
+    font-family: Comic Sans MS, Times, serif;
+    margin: 0 auto;
+    font-size: 16px;
+}
+h1 {
+    text-align: center;
+    margin: 15px 0;
+    font-size: 175%;
+}
+.desc {
+    clear: both;
+}
+.subhead {
+    float: right;
+    padding: 5px 40px;
+    margin-right: -10px;
+    text-align: center;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    font-weight: bold;
+    font-size: 125%;
+}
+.pink {
+    background-color: pink;
+}
+.smartred {
+    background-color: red;
+    color: white;
+}
+.khaki {
+    background-color: khaki;
+}
+@media(min-width:992px) {
+    .box {
+        padding: 0 10px;
+        border: 2px solid black;
+        background: #D3D3D3;
+        margin-bottom: 15px;
+        float: left;
+        width: 33%;
+        margin-left: .33%;
+    }
+}
+@media(min-width:768px) and (max-width:991px) {
+    .half {
+        padding: 0 10px;
+        border: 2px solid black;
+        background: #D3D3D3;
+        margin-bottom: 15px;
+        float: left;
+        width: 49.5%;
+        margin-left: .5%;
+    }
+    .full {
+        padding: 0 10px;
+        border: 2px solid black;
+        background: #D3D3D3;
+        margin-bottom: 15px;
+        float: left;
+        width: 99.5%;
+        margin-left: .5%;
+    }
+}
+@media(max-width:767px) {
+    .box {
+        padding: 0 10px;
+        border: 2px solid black;
+        background: #D3D3D3;
+        margin-bottom: 15px;
+        float: left;
+        width: 100%
+    }
+}
